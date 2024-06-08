@@ -18,8 +18,9 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">SuikaAngel</div>
+        <div id="unity-build-title">My project</div>
       </div>
     </div>
     <script>
@@ -56,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SuikaAngel.loader.js";
+      var loaderUrl = buildUrl + "/WebGL-SuikaAngel.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SuikaAngel.data",
-        frameworkUrl: buildUrl + "/SuikaAngel.framework.js",
-        codeUrl: buildUrl + "/SuikaAngel.wasm",
+        dataUrl: buildUrl + "/WebGL-SuikaAngel.data",
+        frameworkUrl: buildUrl + "/WebGL-SuikaAngel.framework.js",
+        codeUrl: buildUrl + "/WebGL-SuikaAngel.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
